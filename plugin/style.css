@@ -1,0 +1,22 @@
+.cr-panel, .cr-dock { color: var(--text-normal, #eee); font: 14px/1.5 var(--font-primary, sans-serif); }
+.cr-panel { padding: 18px; }
+.cr-panel h3 { margin: 16px 0 8px; font-weight: 700; }
+.cr-panel p { margin: 8px 0; }
+.cr-panel button, .cr-dock button, .cr-controls button { color: var(--text-normal, #eee); background: var(--background-modifier-selected, #383a40); border: 1px solid var(--background-modifier-accent, #555); border-radius: 5px; padding: 6px 10px; margin: 3px; cursor: pointer; font: inherit; }
+.cr-panel button:disabled, .cr-controls button:disabled { opacity: .5; cursor: default; }
+.cr-panel button:focus-visible, .cr-dock button:focus-visible, .cr-controls button:focus-visible { outline: 2px solid var(--brand-500, #8591ff); outline-offset: 2px; }
+.cr-panel .cr-primary { background: var(--brand-500, #5865f2); color: white; }
+.cr-panel label { display: block; margin: 10px 0; }
+.cr-panel input:not([type="checkbox"]), .cr-panel textarea, .cr-panel select { display: block; box-sizing: border-box; width: 100%; padding: 8px; margin-top: 5px; background: var(--input-background, #202125); color: var(--text-normal, #eee); border: 1px solid var(--background-modifier-accent, #555); border-radius: 4px; font: inherit; }
+.cr-panel textarea { min-height: 80px; }
+.cr-panel nav { display: flex; flex-wrap: wrap; gap: 4px; }
+.cr-panel nav [aria-pressed="true"] { background: var(--brand-500, #5865f2); color: white; }
+.cr-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; font-size: 12px; }
+.cr-controls meter { width: 45px; }
+.cr-rec { color: #ff777d; font-weight: 700; }
+.cr-error { color: var(--text-danger, #ff9096); overflow-wrap: anywhere; }
+.cr-path, .cr-panel code { overflow-wrap: anywhere; font-family: var(--font-code, monospace); }
+.cr-dock { position: fixed; bottom: 90px; right: 16px; max-width: min(440px, 92vw); z-index: 1000; padding: 10px; border-radius: 8px; background: var(--background-floating, #202125); border: 1px solid var(--background-modifier-accent, #555); box-shadow: 0 3px 16px #0006; }
+.cr-notice { border-top: 1px solid #555; margin-top: 8px; padding-top: 8px; overflow-wrap: anywhere; }
+.cr-recording { border-bottom: 1px solid var(--background-modifier-accent, #555); padding: 10px 0; }
+.cr-recording audio { display: block; width: 100%; margin-top: 10px; }

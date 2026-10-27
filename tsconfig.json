@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES2023", "module": "ESNext", "moduleResolution": "Bundler",
+    "strict": true, "noEmit": true, "skipLibCheck": true,
+    "lib": ["ES2023", "DOM", "DOM.Iterable"], "types": ["node"],
+    "allowImportingTsExtensions": true
+  },
+  "include": ["plugin/model.ts", "plugin/storage.ts", "plugin/controller.ts", "plugin/audio.ts", "plugin/notices.ts", "companion/**/*.ts", "tests/**/*.ts", "scripts/**/*.ts"]
+}

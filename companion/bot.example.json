@@ -1,0 +1,6 @@
+{
+  "recorderId": "YOUR_DISCORD_USER_ID",
+  "channelIds": ["EXPLICITLY_APPROVED_VOICE_CHANNEL_ID"],
+  "port": 32189,
+  "pairingFile": "/absolute/private/path/call-recorder-pairing.local.json"
+}
